@@ -108,12 +108,14 @@ footer {
 #sendEmail {
   width: fit-content;
   padding: 10px;
-  background-color: grey;
   text-align: center;
   position: absolute;
   top: 33%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+#emailbtn{
+  font-size: 2rem;
 }
 .repoImages {
   
@@ -168,6 +170,4 @@ footer {
  font-size: 2rem;
  
 }
-.homeLinks:hover{
-  translate:(0, 20px);
-}
+
