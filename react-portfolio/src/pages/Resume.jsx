@@ -2,7 +2,15 @@ function Resume() {
 
     return(
         <div>
-            <h1>Resume</h1>
+            <div className="sidenav">
+                <ul>
+                    <li>Experience</li>
+                    <li>Languages</li>
+                    <li>Skills</li>
+                    <li>Education</li>
+                </ul>
+            </div>
+            
         </div>
     );
 }
