@@ -12,7 +12,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
 }
 
 li {
@@ -60,7 +59,7 @@ header {
   gap: 2rem;
 }
 
-footer{
+footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -75,7 +74,7 @@ footer{
 }
 .sidenav {
   width: 100px;
-   height: 100vh;
+  height: 100vh;
 }
 .sidenav ul {
   margin-top: 50%;
@@ -88,33 +87,69 @@ footer{
   margin-bottom: 90%;
 }
 .experienceContainer {
-  width:600px;
+  width: 600px;
   height: 1100px;
   display: flex;
   flex-direction: column;
-  float:left;
- 
+  float: left;
 }
 .experienceCard {
   margin-left: 30%;
 }
-.skillsLanguagescontainer{
-  width:500px;
+.skillsLanguagescontainer {
+  width: 500px;
   position: absolute;
   top: 33%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px;
 }
-#sendEmail{
-  width:fit-content;
-  padding:10px;
+#sendEmail {
+  width: fit-content;
+  padding: 10px;
   background-color: grey;
   text-align: center;
   position: absolute;
   top: 33%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.repoImages {
   
+  position: relative;
+  width: 500px;
+  height: 300px;
+  display:inline-block;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+#image {
+  display: block;
+  width: 100%;
+  width: 500px;
+  height: 300px;
+  
+  
+}
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.image__overlay:hover {
+  opacity: 1;
+}
+.image__title {
+  font-size: 2em;
+  font-weight: bold;
 }
 
