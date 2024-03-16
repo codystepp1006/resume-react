@@ -2,15 +2,7 @@ function Resume() {
 
     return(
         <div>
-            {/* <div className="sidenav">
-                <ul>
-                    <li>Experience</li>
-                    <li>Languages</li>
-                    <li>Skills</li>
-                    <li>Education</li>
-                </ul>
-            </div> */}
-
+            
             <div className="experienceContainer">
                 <div className="experienceCard">
                     <h2>Experience</h2>
@@ -84,7 +76,16 @@ function Resume() {
                         JavaScript, HTML, CSS, jQuery, Bootstrap, Node, SQL, MySQL, MongoDB, Express, React 
                     </p>
                 </div>
+                <div>
+                <br></br>
+                <h2>About me!</h2>
+                <br></br>
+                <p>I am a highly motivated junior full stack developer seeking an entry level developer position. With skills such as creative and criticle thinking, strong communication, and
+                being a team player,  my goal is to allow my company to utilize my skills to save money, maximize efficiency, and continue to grow while strengthen
+                 my programming abilities. </p>
             </div>
+            </div>
+            
             
             
         </div>
