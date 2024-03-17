@@ -9,5 +9,5 @@ export default defineConfig({
       input: 'src/App.jsx' // Update the entry point to your main JavaScript file
     }
   },
-  base: "/vite/"
+  base: "/resume-react/"
 });
